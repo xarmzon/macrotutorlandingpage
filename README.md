@@ -1,24 +1,17 @@
-# SECOND CAPSTONE PROJECT BY GROUP 225
+# MacroTutor Platform Tutor's Assessment
 
-## PROJECT
+## INSTRUCTIONS
 
-Build a simple responsive webpage with the following sections only;
+> Our users trust us more when our tutors are assessed and verified. To get verified, kindly follow the steps listed below to take the assessments:
 
-- Navigation bar (with a hamburger icon for the mobile view)
-- Form that contains the following input fields (username, email address, phone number, password, confirm password, gender, and a submit button)
+1. [Click on this link to take the first assessment:](https://forms.gle/7cFD2DBssZWN6prn8)
+2. The next stage is to work on any of these two (2) projects and submit them within the next 48 hours using the combination of HTML, JAVASCRIPT and CSS
 
-## PROJECT INSTRUCTIONS
+- A Portfolio Website
+- A Landing Page
 
-1. Ensure you watch the lesson videos for weeks 4, 5, and 6 and attend week 5 and 6 live classes before starting this project.
+Submit the source code and a short video of you explaining/teaching the projects to [Here](https://forms.gle/PCEnzPokWyt6rUZg7)
 
-2. Use bootstrap or any other framework to make the form section responsive.
+OR
 
-3. For the navigation bar section, no framework including bootstrap should be used. Use your custom CSS styling to make it responsive.
-
-4. All input fields in the form section must be validated with vanilla javascript only, no validation library must be used.
-
-5. The input field for the password must have an eye icon so that when it's clicked, the user can hide or show the password.
-
-6. Deadline for submission is next week Tuesday. No submission would be accepted after Tuesday.
-
-7. Happy coding!
+"You can decide to upload the links to your portfolio to the form instead with a video explaining/teaching any of the projects there"
