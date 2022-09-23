@@ -1,4 +1,4 @@
-const { sum } = require("./func");
+const { sum, doings } = require("./func");
 
 test("should add 2 + 2 = 4", () => {
   const result = sum(2, 2);
@@ -31,4 +31,17 @@ it("should add 3 + 5 = 8", () => {});
 //       })
 //     })
 //   })
+// })
+
+// const jFunc = jest.fn()
+// const mockFun = jest.fn(x=>52)
+// const spyF = jest.spyOn(doings, "login")
+
+// test("jFunc", ()=>{
+//   expect(jFunc).not.toHaveBeenCalled()
+// })
+
+// test("jFunc called", ()=>{
+//   jFunc()
+//   expect(jFunc).toHaveBeenCalled()
 // })

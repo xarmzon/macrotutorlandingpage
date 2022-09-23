@@ -17,4 +17,4 @@ const doings = {
   },
 };
 
-module.exports = { sum };
+module.exports = { sum, doings };

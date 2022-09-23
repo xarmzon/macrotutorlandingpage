@@ -6,6 +6,7 @@ const {
 exports.connectDB = async (URI) => {
   try {
     await connect(URI || process.env.DB_URI);
+    console.log("Database Connected Successfully");
   } catch (err) {
     console.log("Error connecting to Database");
     console.log(err.message);
