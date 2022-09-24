@@ -1,4 +1,5 @@
 const { errorGenerator } = require("../utils");
+const jwt = require("jsonwebtoken");
 
 exports.authValidator = async (req, res, next) => {
   try {
@@ -8,7 +9,9 @@ exports.authValidator = async (req, res, next) => {
     }
     const token = authorization.split(" ")[1];
     //todo: jwt validation
-
+    const tokenData = jwt.verify(token);
+    req.userType = tokenData?.userType;
+    req.userId = tokenData?.userId;
     next();
   } catch (error) {
     next(error);

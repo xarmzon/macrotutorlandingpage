@@ -11,16 +11,26 @@ const UserSchema = new Schema(
       type: String,
       required: true,
       trim: true,
+      unique: true,
+      index: true,
     },
     email: {
       type: String,
       required: true,
       trim: true,
+      unique: true,
+      index: true,
     },
     password: {
       type: String,
       required: true,
       trim: true,
+    },
+    userType: {
+      type: String,
+      enum: ["user", "admin"],
+      required: true,
+      default: "user",
     },
   },
   {
